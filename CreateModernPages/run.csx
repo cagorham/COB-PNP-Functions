@@ -2,7 +2,7 @@ using System.Net;
 
 public static async Task<HttpResponseMessage> Run(HttpRequestMessage req, TraceWriter log)
 {
-    log.Info("C# HTTP trigger function processed a request at " + DateTime.now);
+    log.Info("C# HTTP trigger function processed a request at (Tryng to figure out the date :)";
 
     // parse query parameter
     string name = req.GetQueryNameValuePairs()
