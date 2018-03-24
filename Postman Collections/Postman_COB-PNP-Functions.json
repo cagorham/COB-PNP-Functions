@@ -1,7 +1,7 @@
 {
   "info": {
-    "name": "Postman Echo",
     "_postman_id": "f695cab7-6878-eb55-7943-ad88e1ccfd65",
+    "name": "Postman Echo",
     "description": "Postman Echo is service you can use to test your REST clients and make sample API calls. It provides endpoints for `GET`, `POST`, `PUT`, various auth mechanisms and other utility endpoints.\n\nThe documentation for the endpoints as well as example responses can be found at [https://postman-echo.com](https://postman-echo.com/?source=echo-collection-app-onboarding)",
     "schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
   },
@@ -2665,8 +2665,7 @@
                   "value": "2"
                 }
               ]
-            },
-            "description": null
+            }
           },
           "response": [
             {
@@ -2851,8 +2850,7 @@
                   "value": "1"
                 }
               ]
-            },
-            "description": null
+            }
           },
           "response": [
             {
@@ -3035,8 +3033,7 @@
               "mode": "raw",
               "raw": "{\r\n  \"resource\": \"https://clgtechnology.sharepoint.com/sites/CG-Communications_api/web/lists('8bbf8212-b993-4452-8308-bc4ef640e14e')\",\r\n  \"notificationUrl\": \"https://979c3ae7.ngrok.io/api/spwebhook/handlerequest\",\r\n  \"expirationDateTime\": \"2018-02-27T16:17:57+00:00\",\r\n  \"clientState\": \"A0A354EC-97D4-4D83-9DDB-144077ADB449\"\r\n}\r\n"
             },
-            "url": "https://clgtechnology.sharepoint.com/sites/CG-Communications/_api/web/lists('8bbf8212-b993-4452-8308-bc4ef640e14e')/subscriptions",
-            "description": null
+            "url": "https://clgtechnology.sharepoint.com/sites/CG-Communications/_api/web/lists('8bbf8212-b993-4452-8308-bc4ef640e14e')/subscriptions"
           },
           "response": []
         }
@@ -3049,7 +3046,7 @@
         "auth": {
           "type": "oauth2",
           "oauth2": {
-            "accessToken": "eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiIsIng1dCI6Ino0NHdNZEh1OHdLc3VtcmJmYUs5OHF4czVZSSIsImtpZCI6Ino0NHdNZEh1OHdLc3VtcmJmYUs5OHF4czVZSSJ9.eyJhdWQiOiJodHRwczovL2NsZ3RlY2hub2xvZ3kuc2hhcmVwb2ludC5jb20iLCJpc3MiOiJodHRwczovL3N0cy53aW5kb3dzLm5ldC85YjBmMGJlZC0zY2Q3LTQxNDctYWFmNy1mYmNkMzFkZTQwNmMvIiwiaWF0IjoxNTE2MTUyOTc0LCJuYmYiOjE1MTYxNTI5NzQsImV4cCI6MTUxNjE1Njg3NCwiYWNyIjoiMSIsImFpbyI6IkFTUUEyLzhHQUFBQWRWWjh1T3dUc3FxMnlBbURRQitQOGxQcWVYZWpucnJ0ZnQ3Z2RYaHQwZlE9IiwiYW1yIjpbInB3ZCJdLCJhcHBfZGlzcGxheW5hbWUiOiJTaGFyZVBvaW50Q29tbSIsImFwcGlkIjoiNTU3ZWI5NDEtYTk5OS00ZTkwLTk4NDEtZGNiZWE3MjBiMDdhIiwiYXBwaWRhY3IiOiIxIiwiZmFtaWx5X25hbWUiOiJHb3JoYW0iLCJnaXZlbl9uYW1lIjoiQ2hyaXN0b3BoZXIiLCJpcGFkZHIiOiIyNC4xNTMuNDguMTA2IiwibmFtZSI6IkNocmlzdG9waGVyIEdvcmhhbSIsIm9pZCI6ImI4NDhlYTgyLTk2M2MtNGMwNy05NDUxLWMwNjYzZjNmY2Y4ZCIsInB1aWQiOiIxMDAzN0ZGRTg4MUVGMDhBIiwic2NwIjoiU2l0ZXMuRnVsbENvbnRyb2wuQWxsIiwic3ViIjoiM0ItRnJUYTg0R0JnTUg4Ymx1WUx2N09zTWRqMm0yaWVNMFJpLWpTZUxPRSIsInRpZCI6IjliMGYwYmVkLTNjZDctNDE0Ny1hYWY3LWZiY2QzMWRlNDA2YyIsInVuaXF1ZV9uYW1lIjoiY2Fnb3JoYW0yMDEwQGNsZ3RlY2hub2xvZ3kub3JnIiwidXBuIjoiY2Fnb3JoYW0yMDEwQGNsZ3RlY2hub2xvZ3kub3JnIiwidXRpIjoiZXJDUXZadWk0VXk0dTRhZDc2cE1BQSIsInZlciI6IjEuMCJ9.lIH6R4ljtBeKfg9GiWuCJKUpqwKugjCN-AysN0bhLwD8DnKnfAndWbe9Qb074MfQG5S3vMvN1STlo0A_kND2SenL2NQgipRh8fqHsn5lWNGJuixzL1SbmCxJ3RA4xEQVJUf_VwGYX8vOy1YSXMivJpSg5KtkMsVYx7UuWtUGMI61s_Px0Ca2vd2X7hPh14HarfAss_07He4VJoMj0kVej0JnuF95nvqIlPR6K6wy-4N6ExPJafuqEGt_7jvZlM5QnjKlaGreE4TRrVtpaYB-XyWOqF_eCAx2DEIk50mb8PU9Y8EsBXFmVxI3nifVutzSmOTU3Fc_oJoBHBL9zEpZwA",
+            "accessToken": "eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiIsIng1dCI6IlNTUWRoSTFjS3ZoUUVEU0p4RTJnR1lzNDBRMCIsImtpZCI6IlNTUWRoSTFjS3ZoUUVEU0p4RTJnR1lzNDBRMCJ9.eyJhdWQiOiJodHRwczovL2NsZ3RlY2hub2xvZ3kuc2hhcmVwb2ludC5jb20iLCJpc3MiOiJodHRwczovL3N0cy53aW5kb3dzLm5ldC85YjBmMGJlZC0zY2Q3LTQxNDctYWFmNy1mYmNkMzFkZTQwNmMvIiwiaWF0IjoxNTIwNzM2OTQ1LCJuYmYiOjE1MjA3MzY5NDUsImV4cCI6MTUyMDc0MDg0NSwiYWNyIjoiMSIsImFpbyI6IkFTUUEyLzhHQUFBQWNrZXZzQXc4MnBiYXkzVTUzdFAyMm1lRXRWNFM2U0xuUVc5THlBSnp2OGs9IiwiYW1yIjpbInB3ZCJdLCJhcHBfZGlzcGxheW5hbWUiOiJTaGFyZVBvaW50Q29tbSIsImFwcGlkIjoiNTU3ZWI5NDEtYTk5OS00ZTkwLTk4NDEtZGNiZWE3MjBiMDdhIiwiYXBwaWRhY3IiOiIxIiwiZmFtaWx5X25hbWUiOiJHb3JoYW0iLCJnaXZlbl9uYW1lIjoiQ2hyaXN0b3BoZXIiLCJpcGFkZHIiOiIxNzQuMjA1LjEwLjE5MiIsIm5hbWUiOiJDaHJpc3RvcGhlciBHb3JoYW0iLCJvaWQiOiJiODQ4ZWE4Mi05NjNjLTRjMDctOTQ1MS1jMDY2M2YzZmNmOGQiLCJwdWlkIjoiMTAwMzdGRkU4ODFFRjA4QSIsInNjcCI6IlNpdGVzLkZ1bGxDb250cm9sLkFsbCIsInNpZ25pbl9zdGF0ZSI6WyJrbXNpIl0sInN1YiI6IjNCLUZyVGE4NEdCZ01IOGJsdVlMdjdPc01kajJtMmllTTBSaS1qU2VMT0UiLCJ0aWQiOiI5YjBmMGJlZC0zY2Q3LTQxNDctYWFmNy1mYmNkMzFkZTQwNmMiLCJ1bmlxdWVfbmFtZSI6ImNhZ29yaGFtMjAxMEBjbGd0ZWNobm9sb2d5Lm9yZyIsInVwbiI6ImNhZ29yaGFtMjAxMEBjbGd0ZWNobm9sb2d5Lm9yZyIsInV0aSI6Ik54UnZuYzdsT1U2UkRPM3ZhT3NYQUEiLCJ2ZXIiOiIxLjAifQ.MDBxbLJAR2Hq4dJxtR5RAqfI2xl_elPnC_W39AgBdaGrOAmkIIYsqhD73GK3ml94IejQdhlJ2pkQELxKWDmjcrGxbuEUk2MWiEsFppBAAXlC_i7m5nAuwci3jT0yp9a3W9KkPW7uKAnQKQTAhcb96dfKTEM86C2xQ69R6vvPXRDGjQRui_7CbWKt4tfWnpIqDFchhs3LqQQQ3_SAScNlEPgOzPp5_6eTo9pkCM68OtML9xAep06D4_3AgD3fkaWRzr0anXP2jQVqLwVnU2pB89pfd1FSG9OWiScP8GZbGd8KfiaZBHwDN11SXXcnPeYLP0QoLy81wqtGwimJu1Zc0Q",
             "tokenType": "Bearer",
             "addTokenTo": "header"
           }
@@ -3058,12 +3055,15 @@
         "header": [
           {
             "key": "Accept",
-            "value": "application/json;odata=verbose  "
+            "value": "application/json;odata=verbose "
+          },
+          {
+            "key": " Content",
+            "value": "application/json"
           }
         ],
         "body": {},
-        "url": "https://clgtechnology.sharepoint.com/sites/CG-Communications/_api/web/lists",
-        "description": null
+        "url": "https://clgtechnology.sharepoint.com/sites/CG-Communications/_api/web/lists('list-id')/subscriptions"
       },
       "response": []
     }
