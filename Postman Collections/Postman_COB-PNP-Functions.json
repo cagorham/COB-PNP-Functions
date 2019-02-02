@@ -736,7 +736,7 @@
               ],
               "cookie": [
                 {
-                  "expires": "Fri Apr 15 2016 10:54:28 GMT+0000 (UTC)",
+                  "expires": "Fri Apr 15 2016 10:54:28 GMT+0000 (Coordinated Universal Time)",
                   "hostOnly": false,
                   "httpOnly": false,
                   "domain": ".getpostman.com",
@@ -747,7 +747,7 @@
                   "key": "getpostmanlogin"
                 },
                 {
-                  "expires": "Fri Apr 15 2016 10:54:28 GMT+0000 (UTC)",
+                  "expires": "Fri Apr 15 2016 10:54:28 GMT+0000 (Coordinated Universal Time)",
                   "hostOnly": false,
                   "httpOnly": false,
                   "domain": ".getpostman.com",
@@ -1662,7 +1662,7 @@
               ],
               "cookie": [
                 {
-                  "expires": "Fri Apr 15 2016 11:14:58 GMT+0000 (UTC)",
+                  "expires": "Fri Apr 15 2016 11:14:58 GMT+0000 (Coordinated Universal Time)",
                   "hostOnly": false,
                   "httpOnly": false,
                   "domain": ".getpostman.com",
@@ -1673,7 +1673,7 @@
                   "key": "getpostmanlogin"
                 },
                 {
-                  "expires": "Fri Apr 15 2016 11:14:58 GMT+0000 (UTC)",
+                  "expires": "Fri Apr 15 2016 11:14:58 GMT+0000 (Coordinated Universal Time)",
                   "hostOnly": false,
                   "httpOnly": false,
                   "domain": ".getpostman.com",
@@ -1684,7 +1684,7 @@
                   "key": "postman.sid"
                 },
                 {
-                  "expires": "Sat Mar 31 2018 11:16:21 GMT+0000 (UTC)",
+                  "expires": "Sat Mar 31 2018 11:16:21 GMT+0000 (Coordinated Universal Time)",
                   "hostOnly": false,
                   "httpOnly": false,
                   "domain": ".echo.getpostman.com",
@@ -1822,7 +1822,7 @@
               ],
               "cookie": [
                 {
-                  "expires": "Mon Jan 18 2038 21:44:07 GMT+0000 (UTC)",
+                  "expires": "Mon Jan 18 2038 21:44:07 GMT+0000 (Coordinated Universal Time)",
                   "httpOnly": true,
                   "domain": "echo.getpostman.com",
                   "path": "/",
@@ -2002,7 +2002,7 @@
               ],
               "cookie": [
                 {
-                  "expires": "Mon Jan 18 2038 21:44:07 GMT+0000 (UTC)",
+                  "expires": "Mon Jan 18 2038 21:44:07 GMT+0000 (Coordinated Universal Time)",
                   "httpOnly": true,
                   "domain": "postman-echo.com",
                   "path": "/",
@@ -2155,7 +2155,7 @@
               ],
               "cookie": [
                 {
-                  "expires": "Mon Jan 18 2038 21:44:07 GMT+0000 (UTC)",
+                  "expires": "Mon Jan 18 2038 21:44:07 GMT+0000 (Coordinated Universal Time)",
                   "httpOnly": true,
                   "domain": "postman-echo.com",
                   "path": "/",
@@ -2278,7 +2278,7 @@
               ],
               "cookie": [
                 {
-                  "expires": "Mon Jan 18 2038 21:44:07 GMT+0000 (UTC)",
+                  "expires": "Mon Jan 18 2038 21:44:07 GMT+0000 (Coordinated Universal Time)",
                   "httpOnly": true,
                   "domain": "postman-echo.com",
                   "path": "/",
@@ -2800,7 +2800,7 @@
               ],
               "cookie": [
                 {
-                  "expires": "Mon Jan 18 2038 21:44:07 GMT+0000 (UTC)",
+                  "expires": "Mon Jan 18 2038 21:44:07 GMT+0000 (Coordinated Universal Time)",
                   "httpOnly": true,
                   "domain": "postman-echo.com",
                   "path": "/",
@@ -2985,7 +2985,7 @@
               ],
               "cookie": [
                 {
-                  "expires": "Mon Jan 18 2038 21:44:07 GMT+0000 (UTC)",
+                  "expires": "Mon Jan 18 2038 21:44:07 GMT+0000 (Coordinated Universal Time)",
                   "httpOnly": true,
                   "domain": "postman-echo.com",
                   "path": "/",
@@ -3066,6 +3066,28 @@
         "url": "https://clgtechnology.sharepoint.com/sites/CG-Communications/_api/web/lists('list-id')/subscriptions"
       },
       "response": []
+    }
+  ],
+  "event": [
+    {
+      "listen": "prerequest",
+      "script": {
+        "id": "2d186375-89a9-4db5-b32a-fc0ac0b7c4bc",
+        "type": "text/javascript",
+        "exec": [
+          ""
+        ]
+      }
+    },
+    {
+      "listen": "test",
+      "script": {
+        "id": "195519f1-6c81-44a8-b14b-e0fccc859da6",
+        "type": "text/javascript",
+        "exec": [
+          ""
+        ]
+      }
     }
   ]
 }
