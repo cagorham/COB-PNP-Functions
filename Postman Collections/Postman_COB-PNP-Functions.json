@@ -3068,6 +3068,12 @@
       "response": []
     }
   ],
+  "auth": {
+    "type": "oauth2",
+    "oauth2": {
+      "addTokenTo": "header"
+    }
+  },
   "event": [
     {
       "listen": "prerequest",
