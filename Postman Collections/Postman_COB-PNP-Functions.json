@@ -3069,9 +3069,10 @@
     }
   ],
   "auth": {
-    "type": "oauth2",
-    "oauth2": {
-      "addTokenTo": "header"
+    "type": "basic",
+    "basic": {
+      "password": "4mySaviour!7",
+      "username": "cagorham2010@clgtechnology.org"
     }
   },
   "event": [
@@ -3098,21 +3099,21 @@
   ],
   "variable": [
     {
-      "id": "82d9f444-87b0-4d02-aa00-34e38d347acf",
+      "id": "895d4f36-e512-4497-872f-96e4136bdc7e",
       "key": "ApplicationID",
       "value": "6f33b031-27b1-4ecc-ae97-81df3e7b218f",
       "type": "string",
       "description": ""
     },
     {
-      "id": "55f60eb7-d067-410b-a141-d4de009002a5",
+      "id": "f1e260a7-2f3c-4bb2-92de-62c8a63c4188",
       "key": "Resource",
       "value": "https://clgtechnology.crm.dynamics.com",
       "type": "string",
       "description": ""
     },
     {
-      "id": "22b57321-db0f-4a81-8fc0-d669fc00135c",
+      "id": "7ca55b6e-6114-4b63-806b-5bd9dac411bc",
       "key": "RedirectURL",
       "value": "https://localhost:44389",
       "type": "string",
